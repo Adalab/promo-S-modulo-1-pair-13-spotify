@@ -71,13 +71,17 @@ display: flex;
 
 
 .box-two {
-    
-    font-size: 1.8rem;
-    padding: 1rem;
-    align-items: center;
+    font-size: 2rem;
+    padding: 5rem;
+    text-align: center;
     
 }
-
+.beneficios {
+    justify-content: center;
+    display: flex;    
+    height: 1,5rem;
+    padding: 5rem;
+}
 
 .info {
     font-size: 1.2rem;
