@@ -81,6 +81,10 @@ display: flex;
     display: flex;    
     height: 1,5rem;
     padding: 5rem;
+    font-size: 0,8rem;
+}
+.beneficios .texto {
+    font-size: small;
 }
 
 .info {
