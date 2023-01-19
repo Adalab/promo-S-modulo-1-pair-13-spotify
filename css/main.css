@@ -59,7 +59,7 @@ display: flex;
    
    
 }
- .box-one .planes {
+ .planes {
     display: flex;
     margin: auto;
     width: 100%;
@@ -69,17 +69,20 @@ display: flex;
     color: white;
     text-decoration: none;
     line-height: 4rem;
-    font-size: 1rem;
+    font-size: 1.6rem;
     
 }
 
 
+
+
 .box_two {
+
     font-size: 2rem;
     padding: 5rem;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     
 }
@@ -125,4 +128,13 @@ display: flex;
     padding: 1rem;
     color: white;
     
+}
+
+.image {
+    width: 50%;
+}
+
+.title2 {
+    font-size: 3.5rem;
+    text-align: center;
 }
