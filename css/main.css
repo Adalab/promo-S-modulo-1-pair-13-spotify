@@ -75,16 +75,24 @@ display: flex;
 
 
 .box_two {
-    
-    font-size: 1.8rem;
-    padding: 1rem;
+    font-size: 2rem;
+    padding: 5rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     justify-content: center;
     
 }
-
+.beneficios {
+    justify-content: center;
+    display: flex;    
+    height: 1,5rem;
+    padding: 5rem;
+    font-size: 0,8rem;
+}
+.beneficios .texto {
+    font-size: small;
+}
 
 .info {
     font-size: 1.2rem;
