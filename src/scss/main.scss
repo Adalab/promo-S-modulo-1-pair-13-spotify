@@ -9,11 +9,11 @@
 @import 'pages/index';
 */
 
-@import 'core/variables';
+
+@import './core/variables';
 
 
-
-@import 'core/reset';
+@import './core/reset';
 
 
 
@@ -82,7 +82,8 @@ html {
 
 .planes {
     display: flex;
-    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 100%;
     justify-content: center;
     background-color: rgb(4, 139, 4);
