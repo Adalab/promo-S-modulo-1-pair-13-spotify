@@ -8,6 +8,7 @@
 @import 'layout/footer';
 @import 'pages/index';
 */
+@import 'core/reset';
 
 html {
     font-size: 62.5%;
@@ -15,7 +16,7 @@ html {
 }
 
 :root {
-    padding: 1rem;
+   
     font-family: 'Roboto', sans-serif;
 }
 
@@ -60,7 +61,7 @@ html {
 
 .box-one {
 
-
+    background-image: url(../images/premium_dancer.png);
     background-color: rgb(12, 152, 233);
     color: white;
     font-size: 1.8rem;
