@@ -1,8 +1,37 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  padding: $font-size;
+  width: 100%;
+  height: 15rem;
+  background-color: $color;
+  color: white;
+  font-size: $font-size;
+}
+
+.div {
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+}
+
+.copy {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.anuncios {
+  padding: $font-size;
+  color: white;
+
+}
+
+.image {
+  width: 50%;
+}
+
+.title2 {
+  font-size: 3.5rem;
+  text-align: center;
 }

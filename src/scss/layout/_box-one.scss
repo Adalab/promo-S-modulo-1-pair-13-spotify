@@ -1,0 +1,32 @@
+.box-one {
+
+    background-image: url(../images/premium_dancer.png);
+    background-color: rgb(12, 152, 233);
+    color: white;
+    font-size: 1.8rem;
+    align-items: center;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+.planes {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(4, 139, 4);
+    border-radius: 4rem;
+    color: white;
+    text-decoration: none;
+    line-height: 4rem;
+    font-size: 1.6rem;
+
+}
+.titulo {
+    font-size: 4.5rem;
+    padding: 1.5rem;
+}
