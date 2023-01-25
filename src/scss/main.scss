@@ -10,12 +10,11 @@
 */
 @import 'core/reset';
 
-@import 'core/variables';
+
+@import './core/variables';
 
 
-
-@import 'core/reset';
-
+@import './core/reset';
 
 
 
@@ -33,7 +32,7 @@ html {
     width: 100%;
     height: 5rem;
     padding: 1rem;
-    background-color: black;
+    background-color:$color;
     color: white;
     font-size: 2rem;
     flex-direction: row;
@@ -84,7 +83,8 @@ html {
 
 .planes {
     display: flex;
-    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 100%;
     justify-content: center;
     background-color: rgb(4, 139, 4);
@@ -127,12 +127,12 @@ html {
 }
 
 .footer {
-    padding: 1rem;
+    padding: $font-size;
     width: 100%;
     height: 15rem;
-    background-color: black;
+    background-color: $color;
     color: white;
-    font-size: 1rem;
+    font-size: $font-size;
 }
 
 .div {
@@ -150,7 +150,7 @@ html {
 }
 
 .anuncios {
-    padding: 1rem;
+    padding: $font-size;
     color: white;
 
 }
